@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: goldenrod;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 30px;
+    color: #ffffff; /* Mudando a cor do texto para branco */
+}
+
+.menu button {
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow:  0px 2px 8px dimgray;
+    border: 1px solid dimgrey;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #8b008b;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.menu button:hover {
+    transform: scale(1.1);
+}
